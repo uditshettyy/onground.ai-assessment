@@ -46,3 +46,9 @@ export const recentCalls = [
   { id:4, name:"Ritu S.", time:"Yesterday", len:"3m 05s", type:"Incoming" },
   { id:5, name:"Prakash A.", time:"Yesterday", len:"1m 40s", type:"Outgoing" },
 ];
+export const initialChatMessages = [
+  { id:1, from:"Sonu Raj", time:"10:32", text:"Did you take the cold calls week?" },
+  { id:2, from:"Sonu Raj", time:"10:34", text:"LOBE ENGAGEMENT: Weekly call at 72%. That's down from 85% last month." },
+  { id:3, from:"Sonu Raj", time:"10:35", text:"SUGGESTED RESOLUTION: Let's push that up — open every call with the greeting script. I'll check back Friday." },
+  { id:4, from:"me", time:"10:40", text:"On it. Will make sure I open every call with the greeting script." },
+];
