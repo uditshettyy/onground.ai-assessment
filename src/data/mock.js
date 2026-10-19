@@ -31,3 +31,18 @@ export const tasks = [
   { id:2, title:"Mukunda · Lead 3022 · ₹1,00,000", tag:"1 hr" },
   { id:3, title:"Kavitha R. · Lead 3023 · ₹60,000", tag:"2 hrs" },
 ];
+export const missedCalls = [
+  { id:1, name:"Prakash A.", time:"20 mins ago", value:"₹6,000" },
+  { id:2, name:"Kavitha R.", time:"2 hrs ago", value:"₹4,000" },
+  { id:3, name:"Dhruv N.", time:"Yesterday", value:"₹1,200" },
+  { id:4, name:"Ritu S.", time:"Yesterday", value:"₹900" },
+  { id:5, name:"Unknown", time:"Yesterday", value:"—" },
+];
+
+export const recentCalls = [
+  { id:1, name:"Mukunda R.", time:"10:15 AM", len:"4m 32s", type:"Incoming" },
+  { id:2, name:"Kavitha R.", time:"9:50 AM", len:"2m 10s", type:"Outgoing" },
+  { id:3, name:"Unknown", time:"Yesterday", len:"0m 12s", type:"Missed" },
+  { id:4, name:"Ritu S.", time:"Yesterday", len:"3m 05s", type:"Incoming" },
+  { id:5, name:"Prakash A.", time:"Yesterday", len:"1m 40s", type:"Outgoing" },
+];
